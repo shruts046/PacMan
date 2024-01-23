@@ -42,11 +42,20 @@ Implementing a Value Iteration Agent.
 Developing a Q-learning agent with update, computeValueFromQValues, getQValue, and computeActionFromQValues methods.
 Implementing an epsilon-greedy strategy in your Q-learning agent.
 Applying Q-learning to control Pacman in Gridworld.
-Implement an Approximate Q-learning agent that learns weights for features of states.
+Implementing an Approximate Q-learning agent that learns weights for features of states.
 
-
-
-
-
+**Part 4: Ghostbusters**
+Designing Pacman agents that use sensors to locate and eat invisible ghosts. This project dives into the world of Bayes Nets, allowing you to explore concepts such as exact and approximate inference in tracking multiple moving ghosts.
+Key Components
+bustersAgents.py: Containing agents for playing the Ghostbusters variant of Pacman.
+inference.py: Coding for tracking ghosts over time using their sounds.
+factorOperations.py: Operations to compute new joint or marginalized probability tables.
+bayesNet.py: The BayesNet and Factor classes.
+Objectives
+Implementing Bayes Net structure and understanding the relationships between different variables.
+Applying join and elimination operations on factors.
+Utilizing variable elimination for probabilistic inference.
+Developing methods for exact and approximate inference in dynamic scenarios.
+Creating agents capable of tracking and hunting down ghosts based on sensor readings.
 
 
