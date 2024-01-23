@@ -26,7 +26,23 @@ Implement Alpha-Beta Pruning for efficient tree exploration.
 Design an Expectimax agent to handle the probabilistic behavior of agents.
 Craft a sophisticated evaluation function for game state assessment.
 
-
+**Part 3: Reinforcement Learning**
+Implemented value iteration and Q-learning. Testing agents on Gridworld, a simulated robot controller (Crawler), and Pacman. This project is designed to have hands-on experience with key concepts in reinforcement learning including value iteration, Q-learning, epsilon-greedy strategies, and approximate Q-learning.
+Key Components
+valueIterationAgents.py: Implementing a value iteration agent for solving known MDPs.
+qlearningAgents.py: Developing Q-learning agents for Gridworld, Crawler, and Pacman.
+analysis.py: Answering questions provided in the project.
+mdp.py: General MDP methods.
+learningAgents.py: Base classes for agents.
+util.py: Useful utilities including util.Counter.
+gridworld.py: Gridworld implementation.
+featureExtractors.py: Feature extraction utilities for approximate Q-learning.
+Objectives
+Implementing a Value Iteration Agent.
+Developing a Q-learning agent with update, computeValueFromQValues, getQValue, and computeActionFromQValues methods.
+Implementing an epsilon-greedy strategy in your Q-learning agent.
+Applying Q-learning to control Pacman in Gridworld.
+Implement an Approximate Q-learning agent that learns weights for features of states.
 
 
 
